@@ -1,3 +1,23 @@
-[gd_scene format=3 uid="uid://b5qi86yh2gpqw"]
+[gd_scene load_steps=4 format=4 uid="uid://b5qi86yh2gpqw"]
+
+[ext_resource type="Script" uid="uid://bnce733sntftb" path="res://scenes/main.gd" id="1_sugp2"]
+[ext_resource type="TileSet" uid="uid://dn0iacgbpi3ls" path="res://tilesets/resources/circuit.tres" id="2_jyhfs"]
+[ext_resource type="Script" uid="uid://dp21523opeyxu" path="res://addons/wfc/nodes/generator_2d.gd" id="2_sugp2"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_sugp2")
+
+[node name="example" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAEAAMAAAAAAAAAAAAFAAMADQAAAAAAAAAEAAIACQAAAAAAAAAEAAQACAAAAAAAAAAEAAUACgAAAAAAAAAFAAUABwAAAAAAAAAFAAYACAAAAAAAAAAFAAcACgAAAAAAAAAGAAcACwAAAAAAAAAHAAcACwAAAAAAAAAIAAcABwAAAAAAAAAIAAgACAAAAAAAAAAJAAcABwAAAAAAAAAIAAUABQAAAAAAAAAJAAUABAAAAAAAAAAKAAUABAAAAAAAAAAJAAYABQAAAAAAAAAHAAgABgAAAAAAAAAIAAkACgAAAAAAAAAJAAkACwAAAAAAAAAJAAgADAAAAAAAAAAHAAkABgAAAAAAAAAIAAoABgAAAAAAAAAJAAoABgAAAAAAAAAKAAgABgAAAAAAAAAEAAYABgAAAAAAAAAGAAYABgAAAAAAAAAFAAQABgAAAAAAAAAFAAgABgAAAAAAAAAEAAEACQAAAAAAAAAEAAAABwAAAAAAAAAGAAMAAAAAAAAAAAADAAMAAAAAAAAAAAAGAAQAAgAAAAAAAAAGAAUAAQAAAAAAAAAHAAQAAwAAAAAAAAADAAQACQAAAAAAAAA=")
+tile_set = ExtResource("2_jyhfs")
+
+[node name="target" type="TileMapLayer" parent="."]
+tile_set = ExtResource("2_jyhfs")
+
+[node name="WFC2DGenerator" type="Node" parent="."]
+script = ExtResource("2_sugp2")
+target = NodePath("../target")
+rect = Rect2i(0, 0, 20, 20)
+positive_sample = NodePath("../example")
+print_rules = true
+metadata/_custom_type_script = "uid://dp21523opeyxu"

@@ -1,3 +1,89 @@
-[gd_resource type="TileSet" format=3 uid="uid://tsdoug446g48"]
+[gd_resource type="TileSet" load_steps=35 format=3 uid="uid://tsdoug446g48"]
+
+[ext_resource type="Texture2D" uid="uid://x6hqdkvv5jj3" path="res://tilesets/assets/FloorPlan/div.png" id="1_ks0hc"]
+[ext_resource type="Texture2D" uid="uid://dqe52bj035vae" path="res://tilesets/assets/FloorPlan/divt.png" id="2_mal86"]
+[ext_resource type="Texture2D" uid="uid://b8jbckcdqnpec" path="res://tilesets/assets/FloorPlan/stairs.png" id="3_m4rbc"]
+[ext_resource type="Texture2D" uid="uid://mqee5gx1ho0t" path="res://tilesets/assets/FloorPlan/table.png" id="4_phlly"]
+[ext_resource type="Texture2D" uid="uid://cqa5cx7ohp5ip" path="res://tilesets/assets/FloorPlan/vent.png" id="5_l5hnx"]
+[ext_resource type="Texture2D" uid="uid://cqosouiqjvyvg" path="res://tilesets/assets/FloorPlan/w.png" id="6_qo43o"]
+[ext_resource type="Texture2D" uid="uid://cjwkymxx4j5nr" path="res://tilesets/assets/FloorPlan/wall.png" id="7_wy6ea"]
+[ext_resource type="Texture2D" uid="uid://cq3o17xjadqrr" path="res://tilesets/assets/FloorPlan/walldiv.png" id="8_6c88s"]
+[ext_resource type="Texture2D" uid="uid://c6qwgdmpeys6y" path="res://tilesets/assets/FloorPlan/window.png" id="9_hmrq4"]
+[ext_resource type="Texture2D" uid="uid://c26e3nyrl0q62" path="res://tilesets/assets/FloorPlan/divturn.png" id="10_a3mx8"]
+[ext_resource type="Texture2D" uid="uid://c3vighhy6vhxe" path="res://tilesets/assets/FloorPlan/door.png" id="11_uy2lw"]
+[ext_resource type="Texture2D" uid="uid://bli2hb3162vbx" path="res://tilesets/assets/FloorPlan/empty.png" id="12_rh86e"]
+[ext_resource type="Texture2D" uid="uid://wsee885ij41v" path="res://tilesets/assets/FloorPlan/floor.png" id="13_ggchl"]
+[ext_resource type="Texture2D" uid="uid://das21ltnooku0" path="res://tilesets/assets/FloorPlan/glass.png" id="14_vnkvn"]
+[ext_resource type="Texture2D" uid="uid://c7jesef7ue811" path="res://tilesets/assets/FloorPlan/halfglass.png" id="15_m7b3o"]
+[ext_resource type="Texture2D" uid="uid://dw7c8wdw4jdum" path="res://tilesets/assets/FloorPlan/in.png" id="16_eay71"]
+[ext_resource type="Texture2D" uid="uid://dts8ogw7ui3n" path="res://tilesets/assets/FloorPlan/out.png" id="17_uodp7"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ooauo"]
+texture = ExtResource("1_ks0hc")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ndkp"]
+texture = ExtResource("2_mal86")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a26dk"]
+texture = ExtResource("3_m4rbc")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ceev6"]
+texture = ExtResource("4_phlly")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6duu1"]
+texture = ExtResource("5_l5hnx")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_76hpi"]
+texture = ExtResource("6_qo43o")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fw1p3"]
+texture = ExtResource("7_wy6ea")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k50ug"]
+texture = ExtResource("8_6c88s")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rcn4k"]
+texture = ExtResource("9_hmrq4")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vjumm"]
+texture = ExtResource("10_a3mx8")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lkkbs"]
+texture = ExtResource("11_uy2lw")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_crg4k"]
+texture = ExtResource("12_rh86e")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2q3tg"]
+texture = ExtResource("13_ggchl")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v2p8b"]
+texture = ExtResource("14_vnkvn")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kfa3e"]
+texture = ExtResource("15_m7b3o")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kaxdm"]
+texture = ExtResource("16_eay71")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y62j0"]
+texture = ExtResource("17_uodp7")
 
 [resource]
+sources/0 = SubResource("TileSetAtlasSource_ooauo")
+sources/1 = SubResource("TileSetAtlasSource_7ndkp")
+sources/2 = SubResource("TileSetAtlasSource_vjumm")
+sources/3 = SubResource("TileSetAtlasSource_lkkbs")
+sources/4 = SubResource("TileSetAtlasSource_crg4k")
+sources/5 = SubResource("TileSetAtlasSource_2q3tg")
+sources/6 = SubResource("TileSetAtlasSource_v2p8b")
+sources/7 = SubResource("TileSetAtlasSource_kfa3e")
+sources/8 = SubResource("TileSetAtlasSource_kaxdm")
+sources/9 = SubResource("TileSetAtlasSource_y62j0")
+sources/10 = SubResource("TileSetAtlasSource_a26dk")
+sources/11 = SubResource("TileSetAtlasSource_ceev6")
+sources/12 = SubResource("TileSetAtlasSource_6duu1")
+sources/13 = SubResource("TileSetAtlasSource_76hpi")
+sources/14 = SubResource("TileSetAtlasSource_fw1p3")
+sources/15 = SubResource("TileSetAtlasSource_k50ug")
+sources/16 = SubResource("TileSetAtlasSource_rcn4k")
