@@ -19,6 +19,15 @@
 texture = ExtResource("1_jmbjr")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrains_peering_bit/right_side = 2
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 1
+0:0/0/terrains_peering_bit/bottom_left_corner = 0
+0:0/0/terrains_peering_bit/left_side = 2
+0:0/0/terrains_peering_bit/top_left_corner = 0
+0:0/0/terrains_peering_bit/top_side = 1
+0:0/0/terrains_peering_bit/top_right_corner = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oqio8"]
 texture = ExtResource("2_b0pp0")
@@ -29,26 +38,63 @@ texture_region_size = Vector2i(14, 14)
 texture = ExtResource("3_ph886")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrains_peering_bit/right_side = 1
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 0
+0:0/0/terrains_peering_bit/bottom_left_corner = 0
+0:0/0/terrains_peering_bit/left_side = 0
+0:0/0/terrains_peering_bit/top_left_corner = 0
+0:0/0/terrains_peering_bit/top_side = 1
+0:0/0/terrains_peering_bit/top_right_corner = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_io58s"]
 texture = ExtResource("4_h55ic")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrains_peering_bit/right_side = 1
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 0
+0:0/0/terrains_peering_bit/bottom_left_corner = 0
+0:0/0/terrains_peering_bit/left_side = 1
+0:0/0/terrains_peering_bit/top_left_corner = 0
+0:0/0/terrains_peering_bit/top_side = 0
+0:0/0/terrains_peering_bit/top_right_corner = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5tee3"]
 texture = ExtResource("5_axxk4")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrains_peering_bit/right_side = 0
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 0
+0:0/0/terrains_peering_bit/bottom_left_corner = 0
+0:0/0/terrains_peering_bit/left_side = 0
+0:0/0/terrains_peering_bit/top_left_corner = 0
+0:0/0/terrains_peering_bit/top_side = 1
+0:0/0/terrains_peering_bit/top_right_corner = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0sjlr"]
 texture = ExtResource("6_h7fl6")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrains_peering_bit/right_side = 2
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 0
+0:0/0/terrains_peering_bit/bottom_left_corner = 0
+0:0/0/terrains_peering_bit/left_side = 2
+0:0/0/terrains_peering_bit/top_left_corner = 0
+0:0/0/terrains_peering_bit/top_side = 0
+0:0/0/terrains_peering_bit/top_right_corner = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_54yig"]
 texture = ExtResource("7_1468a")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ophof"]
 texture = ExtResource("8_xu0v7")
@@ -69,6 +115,15 @@ texture_region_size = Vector2i(14, 14)
 texture = ExtResource("11_ljw4j")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrains_peering_bit/right_side = 0
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 0
+0:0/0/terrains_peering_bit/bottom_left_corner = 0
+0:0/0/terrains_peering_bit/left_side = 0
+0:0/0/terrains_peering_bit/top_left_corner = 0
+0:0/0/terrains_peering_bit/top_side = 0
+0:0/0/terrains_peering_bit/top_right_corner = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4h4gx"]
 texture = ExtResource("12_1gda1")
@@ -79,14 +134,39 @@ texture_region_size = Vector2i(14, 14)
 texture = ExtResource("13_m6jtb")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrains_peering_bit/right_side = 0
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 1
+0:0/0/terrains_peering_bit/bottom_left_corner = 0
+0:0/0/terrains_peering_bit/left_side = 0
+0:0/0/terrains_peering_bit/top_left_corner = 0
+0:0/0/terrains_peering_bit/top_side = 1
+0:0/0/terrains_peering_bit/top_right_corner = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3lddd"]
 texture = ExtResource("14_do3we")
 texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrains_peering_bit/right_side = 0
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 1
+0:0/0/terrains_peering_bit/bottom_left_corner = 0
+0:0/0/terrains_peering_bit/left_side = 0
+0:0/0/terrains_peering_bit/top_left_corner = 0
+0:0/0/terrains_peering_bit/top_side = 2
+0:0/0/terrains_peering_bit/top_right_corner = 0
 
 [resource]
 tile_size = Vector2i(14, 14)
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "green_background"
+terrain_set_0/terrain_0/color = Color(0, 0.772549, 0, 1)
+terrain_set_0/terrain_1/name = "cian_road 1"
+terrain_set_0/terrain_1/color = Color(0, 1, 0.709804, 1)
+terrain_set_0/terrain_2/name = "gray_road"
+terrain_set_0/terrain_2/color = Color(0.401968, 0.401968, 0.401968, 1)
 sources/0 = SubResource("TileSetAtlasSource_0rmrp")
 sources/1 = SubResource("TileSetAtlasSource_oqio8")
 sources/2 = SubResource("TileSetAtlasSource_54yig")
