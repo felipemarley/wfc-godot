@@ -1,28 +1,26 @@
 extends Node2D
 
-# Pega uma referência direta para todos os nós que vamos precisar.
 @onready var wfc_generator = $WFC2DGenerator
 @onready var example_map = $example
 @onready var target_map = $target
 
-# Esta função é executada automaticamente quando o jogo começa.
 func _ready():
 	print("Iniciando a geração do mapa WFC...")
-
 	wfc_generator.positive_sample = example_map.get_path()
 	wfc_generator.target = target_map.get_path()
-
+	
 	if not wfc_generator.rect.has_area():
-		print("Aviso: O Rect não foi configurado no Inspector. Usando o tamanho padrão 20x20.")
-		wfc_generator.rect = Rect2i(0, 0, 20, 20)
+		print("Aviso: O Rect não foi configurado no Inspector. Usando o tamanho padrão 50x50.")
+		wfc_generator.rect = Rect2i(0, 0, 50, 50)
+		
 	wfc_generator.start()
 	await wfc_generator.done
+	
 	print("Geração do mapa concluída!")
 	resize_window_to_map()
 
 func resize_window_to_map():
-	var map_size_in_tiles = wfc_generator.rect.size
-
+	var map_size_in_tiles = wfc_generator.rect.size 
 	if target_map.tile_set:
 		var tile_size_in_pixels = target_map.tile_set.tile_size
 		var new_window_size = map_size_in_tiles * tile_size_in_pixels
