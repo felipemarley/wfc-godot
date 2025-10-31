@@ -16,8 +16,12 @@ func _ready():
 	wfc_generator.start()
 	await wfc_generator.done
 	
-	print("Geração do mapa concluída!")
 	resize_window_to_map()
+	
+	var dir = DirAccess.open("res://tilemap_images/")
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://tilemap_images/%s.png"%dir.get_files().size())
+	print("Geração do mapa concluída!")
 
 func resize_window_to_map():
 	var map_size_in_tiles = wfc_generator.rect.size 
