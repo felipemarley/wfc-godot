@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgbfd8d7scked"]
+
+[ext_resource type="Script" uid="uid://din2jd2n6ndlq" path="res://scenes/rule_extractor.gd" id="1_jvph5"]
+[ext_resource type="Texture2D" uid="uid://bmiddfoby6ase" path="res://tilemap_images/2.png" id="2_3pw03"]
+[ext_resource type="TileSet" uid="uid://by54tle4qtesu" path="res://tilesets/resources/path.tres" id="3_1gwl0"]
+
+[node name="RuleExtractor" type="Node2D"]
+script = ExtResource("1_jvph5")
+source_image = ExtResource("2_3pw03")
+tile_set = ExtResource("3_1gwl0")
